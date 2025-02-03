@@ -34,5 +34,5 @@ app.delete('/delete', (req, res) => {
     res.send('<html><body>deleted</body></html>')
 });
 
-//start the server, 5000 is the port number
+//start the server, 6000 is the port number
 app.listen(6000, () => console.log('Express server started at port no: 6000'));
